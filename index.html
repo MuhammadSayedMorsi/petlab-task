@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>PETLAB</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header class="header">
+		<div class="wrapper">
+			<div class="wrap_nav_bar">
+				<div class="logo">
+					<img src="assets/icons/lab.svg" alt="petlab logo" /> PETLAB
+				</div>
+				<div class="header__navbar__container">
+					<nav class="header__navbar">
+						<ul class="header__navbar__ul">
+							<li class="header__navbar__li">
+								<a href="#feautres" class="header__navbar__link header__navbar__link__animated">home</a>
+							</li>
+							<li class="header__navbar__li">
+								<a href="#how-it-work" class="header__navbar__link header__navbar__link__animated">shopping</a>
+							</li>
+							<li class="header__navbar__li">
+								<a href="#contact-us" class="header__navbar__link header__navbar__link__animated">blilling</a>
+							</li>
+							<li class="header__navbar__li">
+								<a href="#contact-us" class="header__navbar__link header__navbar__link__animated">receipt</a>
+							</li>
+							<li class="header__navbar__li">
+								<img src="assets/icons/shop.svg" alt="shop cart icon">
+							</li>
+						</ul>
+					</nav>
+
+					<div class="header__navbar__mobile__container">
+						<div class="header__navbar__mobile__toggle " id="toggle__menu">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="header__navbar__mobile">
+				<nav class="header__navbar__mobile__nav">
+					<ul class="header__navbar__mobile__ul">
+						<li class="header__navbar__li h_mobile">
+							<a href="#feautres" class="header__navbar__link">home</a>
+						</li>
+						<li class="header__navbar__li h_mobile">
+							<a href="#how-it-work" class="header__navbar__link">shopping
+							</a>
+						</li>
+						<li class="header__navbar__li h_mobile">
+							<a href="#contact-us" class="header__navbar__link">blilling
+							</a>
+						</li>
+						<li class="header__navbar__li h_mobile">
+							<a href="" class="header__navbar__link green">receipt</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- END HEADER -->
+
+	<!-- MAIN_CONTENT -->
+	<main class="page_content">
+		<div class="wrapper__page_content">
+			<div class="hold_sections">
+				<div class="section__one">
+					<div class="payment_method">
+						<a href="/customer-information" class="customer_information">Customer information ></a>
+						<a href="/payment-method" class="payment_method">Payment method</a>
+					</div>
+					<div class="paypal_button">
+						<button> <img src="assets/icons/paypal.svg" alt="paypal icon" />Pay <span class="pal">Pal</span></button>
+					</div>
+					<div class="wrap_or">
+						<div class="or">OR</div>
+					</div>
+
+					<form id="registration_form" class="" action="register.php" method="post">
+
+						<div class="contact__information">
+							<h2>Contact information</h2>
+							<input class="input__full" type="text" class="form_text" id="form_email" placeholder="email">
+							<p><input type="checkbox" /> keep me upt to date on news and exclusive offers</p>
+							<span class="error_form error__message" id="email_error_message"></span>
+						</div>
+						<div class="username">
+							<h3>Shipping Address</h3>
+							<div class="wrap_user_input">
+								<input type="text" class="form_text" id="form_username" placeholder="First name">
+								<input type="text" class="form_text" id="form_username" placeholder="Last Name">
+							</div>
+							<span class="error_form error__message" id="username_error_message"></span>
+						</div>
+						<div class="adress">
+							<input class="input__full" type="text" class="form_text" id="form_email" placeholder="Adress">
+						</div>
+						<div class="adress">
+							<input class="input__full" type="text" class="form_text" id="form_email"
+								placeholder="Apt, Suit, etc, (optional)">
+						</div>
+						<div class="adress">
+							<input class="input__full" type="text" class="form_text" id="form_email" placeholder="City">
+						</div>
+
+						<div class="state__information">
+							<div class="col_one .col_one_border">
+								<select id="input__state" disabled class="form-control">
+									<option selected="United Status">United Status</option>
+								</select>
+							</div>
+							<div class="col_one .col_one_border">
+									<select id="input__state" class="form-control">
+										<option selected="United Status">Select State</option>
+										<option>Alabama</option>
+										<option> California</option>
+									</select>
+								</div>
+							<div class="col_one">
+								<input type="number" max="9999" placeholder="Zip Code" class="numbers form_text" id="form_zip">
+							<span class="error_form error__message" id="zipcode_error_message"></span>
+							</div>
+
+						</div>
+						<p><input type="checkbox" /> <strong> I agree to the </strong> terms of use and condition of sale-privacy policy </p>
+
+						<div class="buttons_contact">
+							<a href=""> <span>></span> Return to Package Selection </a>
+							<button>Continue to payment method</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="section__two">
+					<div class="wrap__boxs">
+							<div class="first_box">
+								<div class="small__box__left">
+									<img src="assets/icons/med.svg" alt="med icon">
+								</div>
+								<p>Pet Lab - joint Health Tub (Subscription)</p>
+								<div class="price">
+									<span>$35 $31</span>
+								</div>
+							</div>
+							<div class="first_box">
+									<div class="small__box__left">
+										<img src="assets/icons/gift.svg" alt="med icon">
+									</div>
+									<p>Extra Chance to win a $2.000 of products</p>
+									<div class="price">
+										<span>Free</span>
+									</div>
+								</div>
+								<div class="third_box third__one__box">
+										<div>
+											<p>Subtotal Total</p>
+											<p style="margin-top: -8px;">Shipping</p>
+										</div>
+										<div class="price">
+											<span>$75.97</span>
+										</div>
+									</div>
+								<div class="third_box">
+										<p>Total</p>
+										<div class="price">
+											<span class="bold">$75.97</span>
+										</div>
+									</div>
+
+									<div class="last__box">
+										<p><span class="style__red">stock update:</span>
+											Due to extreme demand Shipping times may be extended: predicted Shipping date - 7th August
+										</p>
+									</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="page__footer">
+		<div class="navbar__links">
+				<ul class="footer_links">
+					<li><a href="">Home</a></li>
+					<li><a href="">shiping & return </a></li>
+					<li><a href="">contact us</a></li>
+					<li><a href="">privacy</a></li>
+					<li><a href="">terms & condition</a></li>
+				</ul>
+				<ul class="social_icons">
+					<li><img src="assets/icons/face.svg" alt=""></li>
+					<li><img src="assets/icons/twitter.svg" alt=""></li>
+					<li><img src="assets/icons/insta.svg" alt=""></li>
+					<li><img src="assets/icons/youtube.svg" alt=""></li>
+				</ul>
+				<div class="copyright">2019 &copy; <a href="">www.thebetlabco.com</a>| All Rights Reserved</div>
+		</div>
+	</footer>
+	<!-- END_MAIN_CONTENT -->
+	<!-- form -->
+	<!-- <form id="registration_form " class="" action="register.php" method="post">
+		<div class="username">
+			<label for="">username</label>
+			<input type="text" class="form_text" id="form_username" placeholder="username">
+			<span class="error_form" id="username_error_message"></span>
+		</div>
+		<div class="username">
+			<label> pass</label>
+			<input type="password" class="form_text" id="form_password" placeholder="pass">
+			<span class="error_form" id="password_error_message"></span>
+		</div>
+		<div class="username">
+			<label for=""> retype password</label>
+			<input type="password" class="form_text" id="form_retype_password" placeholder="reypepass">
+			<span class="error_form" id="retype_password_error_message"></span>
+		</div>
+		<div class="username">
+			<label for="">emial</label>
+			<input type="text" class="form_text" id="form_email" placeholder="email">
+			<span class="error_form" id="email_error_message"></span>
+		</div>
+		<div class="username">
+			<label for="">zip code</label>
+			<input type="number" max="9999" placeholder="zipcode" class="numbers form_text" id="form_zip">
+			<span class="error_form" id="zipcode_error_message"></span>
+		</div>
+		<input type="submit" name="" value="submit">
+	</form> -->
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

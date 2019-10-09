@@ -4,7 +4,6 @@ $(function() {
     return /\d/.test(String.fromCharCode(event.keyCode));
   });
 
-
   // toggle_nav
   $("#toggle-nav").click(function() {
     $(this).toggleClass("open");
